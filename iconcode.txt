@@ -1,0 +1,15 @@
+<div id="image_map">     
+<map name="map_example">        
+<area href="https://facebook.com" alt="Facebook" target="_blank" shape=poly coords="30,100, 140,50, 290,220, 180,280"> <area href="link.to" target="_blank" alt="Wikipedia Social Media Article" shape=poly coords="190,75, 200,60, 495,60, 495,165, 275,165">     </map>     
+<img src="*.png" alt="image map example" width=500 height=332 usemap="#map_example">  </div>
+
+
+Read more: https://html.com/images/how-to-make-an-image-map/#ixzz5j0VwCyK0
+
+ The map file itself can be in one of three formats: map, PHP, or CGI. The simplest format is the map format. If we were to use a map file to store the coordinates we used in our previous example we would type the following code into a text file:
+
+poly    https://facebook.com  30,100,140,50,290,220,180,280 poly    https://en.wikipedia.org/wiki/Social_media   190,75,200,60,495,60,495,165,275,165, 
+
+That file would be saved as ismap.map and uploaded to the server.
+
+Read more: https://html.com/images/how-to-make-an-image-map/#ixzz5j0X1Cybh
